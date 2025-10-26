@@ -1,6 +1,6 @@
 package ejercicios_hilos_java;
 
-public class LanzadorHilosNew {
+public class LanzadorHilosNRunnable {
 	
 	public static void main (String[] args) throws InterruptedException {
 		Thread h = new Thread(new Hilo("a")); 
