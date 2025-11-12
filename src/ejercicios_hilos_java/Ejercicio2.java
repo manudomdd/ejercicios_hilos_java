@@ -1,6 +1,6 @@
 package ejercicios_hilos_java;
 
-public class LanzadorHilosBlocked {
+public class Ejercicio2 {
 	
     private static final Object LOCK = new Object();
 	
