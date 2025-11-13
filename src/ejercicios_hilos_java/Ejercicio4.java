@@ -1,6 +1,6 @@
 package ejercicios_hilos_java;
 
-public class Ejercicio3 {
+public class Ejercicio4 {
 	
 	public static int contador = 0; 
 	
@@ -16,8 +16,10 @@ public class Ejercicio3 {
 			}			
 		}); 
 		
+		System.out.println(t1.getState()); 
 		t1.start();
+		System.out.println(t1.getState()); 
 		t1.join();
-		
+		System.out.println(t1.getState()); 	
 	}
 }
